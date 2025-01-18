@@ -12,7 +12,7 @@ import keywords.KeywordLibrary;
 import utils.ExcelUtils;
 import constants.Constants;
 
-public class DriverScript extends BaseClass {
+public class DriverTest extends BaseClass {
     @Test
     public void runTests() throws Exception {
         ExcelUtils excel = new ExcelUtils(Constants.TEST_DATA_FILE_PATH);
